@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Kunduzgi rang */
+    color: #000; /* Tene rang */
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #007bff; /* Boshlik rangi */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #000; /* Kechki rang */
+    color: #f8f9fa; /* Tene rang */
+}
+
+.dark-mode h1 {
+    color: #cb0926; /* Boshlik rangi kunduzgiden o'tgan kechkiga */
+}
+
+.dark-mode button {
+    background-color: #007bff; /* Tugma rangi kunduzgiden o'tgan kechkiga */
+}
